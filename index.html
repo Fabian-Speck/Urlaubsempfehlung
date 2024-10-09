@@ -10,114 +10,153 @@
     <!--User-Abfragen-->
     <form id="urlaubsForm">
       <!-- Budget pro Person -->
+        <div>
+          <label for="budget">Budget pro Person in €:</label><br>
+          <input type="number" id="budget" name="budget" min="0" required />
+        </div>
+
+      <!-- Reisedauer -->
       <div>
-        <label for="budget">Budget pro Person in €:</label>
-        <input type="number" id="budget" name="budget" min="0" required />
-    </div>
-
-    <!-- Reisedauer -->
-    <div>
-        <label for="dauer">Reisedauer in Tagen:</label>
+        <label for="dauer">Reisedauer in Tagen:</label><br>
         <input type="number" id="dauer" name="dauer" min="1" required />
-    </div>
+      </div>
 
-    <!-- Personenanzahl (inkl. Kinder) -->
-    <div>
-        <label for="personen">Personenanzahl:</label>
+      <!-- Personenanzahl (inkl. Kinder) -->
+      <div>
+        <label for="personen">Personenanzahl:</label><br>
         <input type="number" id="personen" name="personen" min="1" required />
-    </div>
+      </div>
 
-    <div>
-        <label for="kinder">Davon Kinder:</label>
+      <div>
+        <label for="kinder">Davon Kinder:</label><br>
         <input type="number" id="kinder" name="kinder" min="0" required />
-    </div>
+      </div>
 
-    <!-- Reiseart (Mehrfachauswahl möglich) -->
-    <div>
+      <!-- Reiseart (Mehrfachauswahl möglich) -->
+      <div>
         <label>Reiseart:</label>
         <div id="reiseart">
-            <input type="checkbox" id="abenteuer" name="reiseart" value="abenteuer" />
-            <label for="abenteuer">Abenteuer</label>
+          <input
+            type="checkbox"
+            id="abenteuer"
+            name="reiseart"
+            value="abenteuer"
+          />
+          <label for="abenteuer">Abenteuer</label>
 
-            <input type="checkbox" id="kultur" name="reiseart" value="kultur" />
-            <label for="kultur">Kultur</label>
+          <input type="checkbox" id="kultur" name="reiseart" value="kultur" />
+          <label for="kultur">Kultur</label>
 
-            <input type="checkbox" id="natur" name="reiseart" value="natur" />
-            <label for="natur">Natur</label>
+          <input type="checkbox" id="natur" name="reiseart" value="natur" />
+          <label for="natur">Natur</label>
 
-            <input type="checkbox" id="stadt" name="reiseart" value="stadt" />
-            <label for="stadt">Städtereise</label>
+          <input type="checkbox" id="stadt" name="reiseart" value="stadt" />
+          <label for="stadt">Städtereise</label>
 
-            <input type="checkbox" id="strand" name="reiseart" value="strand" />
-            <label for="strand">Strand</label>
+          <input type="checkbox" id="strand" name="reiseart" value="strand" />
+          <label for="strand">Strand</label>
 
-            <input type="checkbox" id="wellness" name="reiseart" value="wellness" />
-            <label for="wellness">Wellness</label>
+          <input
+            type="checkbox"
+            id="wellness"
+            name="reiseart"
+            value="wellness"
+          />
+          <label for="wellness">Wellness</label>
 
-            <input type="checkbox" id="egal" name="reiseart" value="egal" />
-            <label for="egal">Egal</label>
-            
+          <input type="checkbox" id="egal" name="reiseart" value="egal" />
+          <label for="egal">Egal</label>
         </div>
-    </div>
+      </div>
 
-    <!-- Sicherheit (Auswahlmöglichkeiten) -->
-    <div>
+      <!-- Sicherheit (Auswahlmöglichkeiten) -->
+      <div>
         <label>Sicherheit im Urlaubsland:</label>
         <div id="sicherheit">
-            <input type="radio" id="sehr_wichtig" name="sicherheit" value="sehr_wichtig" required />
-            <label for="sehr_wichtig">Sehr Wichtig</label>
+          <input
+            type="radio"
+            id="sehr_wichtig"
+            name="sicherheit"
+            value="sehr_wichtig"
+            required
+          />
+          <label for="sehr_wichtig">Sehr Wichtig</label>
 
-            <input type="radio" id="normal" name="sicherheit" value="normal" required />
-            <label for="normal">Normal</label>
+          <input
+            type="radio"
+            id="normal"
+            name="sicherheit"
+            value="normal"
+            required
+          />
+          <label for="normal">Normal</label>
 
-            <input type="radio" id="egal" name="sicherheit" value="egal" required />
-            <label for="egal">Egal</label>
+          <input
+            type="radio"
+            id="egal"
+            name="sicherheit"
+            value="egal"
+            required
+          />
+          <label for="egal">Egal</label>
         </div>
-    </div>
+      </div>
 
-    <!-- Klima (Mehrfachauswahl möglich) -->
-    <div>
+      <!-- Klima (Mehrfachauswahl möglich) -->
+      <div>
         <label>Bevorzugtes Klima:</label>
         <div id="klima">
-            <input type="checkbox" id="kalt" name="klima" value="kalt" />
-            <label for="kalt">Kalt</label>
+          <input type="checkbox" id="kalt" name="klima" value="kalt" />
+          <label for="kalt">Kalt</label>
 
-            <input type="checkbox" id="kühl" name="klima" value="kühl" />
-            <label for="kühl">Kühl</label>
+          <input type="checkbox" id="kühl" name="klima" value="kühl" />
+          <label for="kühl">Kühl</label>
 
-            <input type="checkbox" id="gemäßigt" name="klima" value="gemäßigt" />
-            <label for="gemäßigt">Gemäßigt</label>
+          <input type="checkbox" id="gemäßigt" name="klima" value="gemäßigt" />
+          <label for="gemäßigt">Gemäßigt</label>
 
-            <input type="checkbox" id="warm" name="klima" value="warm" />
-            <label for="warm">Warm</label>
+          <input type="checkbox" id="warm" name="klima" value="warm" />
+          <label for="warm">Warm</label>
 
-            <input type="checkbox" id="heiß" name="klima" value="heiß" />
-            <label for="heiß">Heiß</label>
+          <input type="checkbox" id="heiß" name="klima" value="heiß" />
+          <label for="heiß">Heiß</label>
 
-            <input type="checkbox" id="tropisch" name="klima" value="tropisch" />
-            <label for="tropisch">Tropisch</label>
+          <input type="checkbox" id="tropisch" name="klima" value="tropisch" />
+          <label for="tropisch">Tropisch</label>
 
-            <input type="checkbox" id="egal" name="klima" value="egal" />
-            <label for="egal">Egal</label>
+          <input type="checkbox" id="egal" name="klima" value="egal" />
+          <label for="egal">Egal</label>
         </div>
-    </div>
+      </div>
 
-    <!-- Nachtleben -->
-    <div>
+      <!-- Nachtleben -->
+      <div>
         <label>Nachtleben:</label>
         <div id="nachtleben">
-            <input type="radio" id="wichtig" name="nachtleben" value="wichtig" required />
-            <label for="wichtig">Wichtig</label>
+          <input
+            type="radio"
+            id="wichtig"
+            name="nachtleben"
+            value="wichtig"
+            required
+          />
+          <label for="wichtig">Wichtig</label>
 
-            <input type="radio" id="unwichtig" name="nachtleben" value="unwichtig" required />
-            <label for="unwichtig">Unwichtig</label>
+          <input
+            type="radio"
+            id="unwichtig"
+            name="nachtleben"
+            value="unwichtig"
+            required
+          />
+          <label for="unwichtig">Unwichtig</label>
         </div>
-    </div>
+      </div>
 
-    <!-- Abschicken-Button -->
-    <div>
+      <!-- Abschicken-Button -->
+      <div>
         <button type="submit">Vorschläge anzeigen</button>
-    </div>
+      </div>
     </form>
   </body>
 </html>
