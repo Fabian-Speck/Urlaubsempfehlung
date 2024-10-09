@@ -11,7 +11,7 @@
     <form id="urlaubsForm">
       <!-- Budget pro Person -->
       <div>
-        <label for="budget">Budget pro Person (in €):</label>
+        <label for="budget">Budget pro Person in €:</label>
         <input type="number" id="budget" name="budget" min="0" required />
     </div>
 
@@ -53,35 +53,52 @@
 
             <input type="checkbox" id="wellness" name="reiseart" value="wellness" />
             <label for="wellness">Wellness</label>
+
+            <input type="checkbox" id="egal" name="reiseart" value="egal" />
+            <label for="egal">Egal</label>
             
         </div>
     </div>
 
     <!-- Sicherheit (Auswahlmöglichkeiten) -->
     <div>
-        <label for="sicherheit">Sicherheit im Urlaubsland</label>
-        <select id="sicherheit" name="sicherheit" required>
-            <option value="sehr_wichtig">Sehr wichtig</option>
-            <option value="normal">Normal</option>
-            <option value="egal">Egal</option>
-        </select>
+        <label>Sicherheit im Urlaubsland:</label>
+        <div id="sicherheit">
+            <input type="radio" id="sehr_wichtig" name="sicherheit" value="sehr_wichtig" required />
+            <label for="sehr_wichtig">Sehr Wichtig</label>
+
+            <input type="radio" id="normal" name="sicherheit" value="normal" required />
+            <label for="normal">Normal</label>
+
+            <input type="radio" id="egal" name="sicherheit" value="egal" required />
+            <label for="egal">Egal</label>
+        </div>
     </div>
 
     <!-- Klima (Mehrfachauswahl möglich) -->
     <div>
         <label>Bevorzugtes Klima:</label>
         <div id="klima">
+            <input type="checkbox" id="kalt" name="klima" value="kalt" />
+            <label for="kalt">Kalt</label>
+
+            <input type="checkbox" id="kühl" name="klima" value="kühl" />
+            <label for="kühl">Kühl</label>
+
+            <input type="checkbox" id="gemäßigt" name="klima" value="gemäßigt" />
+            <label for="gemäßigt">Gemäßigt</label>
+
             <input type="checkbox" id="warm" name="klima" value="warm" />
             <label for="warm">Warm</label>
 
-            <input type="checkbox" id="kalt" name="klima" value="kalt" />
-            <label for="kalt">Kalt</label>
+            <input type="checkbox" id="heiß" name="klima" value="heiß" />
+            <label for="heiß">Heiß</label>
 
             <input type="checkbox" id="tropisch" name="klima" value="tropisch" />
             <label for="tropisch">Tropisch</label>
 
-            <input type="checkbox" id="gemäßigt" name="klima" value="gemäßigt" />
-            <label for="gemäßigt">Gemäßigt</label>
+            <input type="checkbox" id="egal" name="klima" value="egal" />
+            <label for="egal">Egal</label>
         </div>
     </div>
 
