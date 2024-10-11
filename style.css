@@ -11,3 +11,17 @@ body {
   font-size: larger;
   font-weight: bold;
 }
+
+.buttonSubmit {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.disclaimer {
+  font-size: small;
+  color: #ff0000;
+  margin-left: 10px
+}
