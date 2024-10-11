@@ -1,4 +1,13 @@
 body {
-    background-color: lightblue;
+  background-color: lightblue;
+  text-align: center;
+  font-size: medium;
 }
 
+.question {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+}
