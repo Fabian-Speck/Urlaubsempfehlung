@@ -2,26 +2,55 @@ body {
   background-color: lightblue;
   text-align: center;
   font-size: medium;
+  font-family: 'Arial', sans-serif;
 }
 
-.question {
-  margin-top: 15px;
+.question, .buttonSubmit {
+  margin-top: 20px;
   margin-bottom: 15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: larger;
   font-weight: bold;
 }
 
-.buttonSubmit {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: larger;
-  font-weight: bold;
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.disclaimer {
-  font-size: small;
-  color: #ff0000;
-  margin-left: 10px
+h1 {
+  color: #333;
+  font-size: 2em;
+}
+
+input[type="number"], select, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  accent-color: #4CAF50; /* Grüne Checkboxen/Radiobuttons */
+  transform: scale(1.2); /* Größer anzeigen */
+  margin-right: 10px;
+}
+
+label:hover, input:hover, select:hover {
+  text-decoration: underline;
 }
