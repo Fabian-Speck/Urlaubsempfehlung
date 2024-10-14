@@ -1,16 +1,10 @@
+/* Basic elements */
+
 body {
   background-color: lightblue;
   text-align: center;
   font-size: medium;
   font-family: 'Arial', sans-serif;
-}
-
-.question, .buttonSubmit {
-  margin-top: 20px;
-  margin-bottom: 15px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: larger;
-  font-weight: bold;
 }
 
 form {
@@ -27,11 +21,14 @@ h1 {
   font-size: 2em;
 }
 
-input[type="number"], select, button {
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  font-size: 1em;
+/* Questions */
+
+.question, .buttonSubmit {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  font-weight: bold;
 }
 
 button {
@@ -41,14 +38,25 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: #45a049;
+/* Input */
+
+input[type="number"], select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
 }
 
 input[type="checkbox"], input[type="radio"] {
   accent-color: #4CAF50; /* Grüne Checkboxen/Radiobuttons */
   transform: scale(1.2); /* Größer anzeigen */
   margin-right: 10px;
+}
+
+/* Hover-effects */
+
+button:hover {
+  background-color: #45a049;
 }
 
 label:hover, input:hover, select:hover {
