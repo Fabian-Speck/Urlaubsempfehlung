@@ -32,10 +32,18 @@ h1 {
 }
 
 button {
-  background-color: #4CAF50;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  background-color: #4CAF50; /* Grundfarbe */
+  color: white; /* Schriftfarbe */
+  cursor: pointer; /* Zeigt den Handzeiger an */
+  padding: 10px; /* Polsterung für ein besseres Gefühl */
+  border-radius: 5px; /* Abgerundete Ecken */
+  border: none; /* Entfernt den Standardrand */
+  transition: background-color 0.3s ease; /* Sanfter Übergang */
+  font-size: 1em; /* Schriftgröße */
+}
+
+button:hover {
+  background-color: #45a049; /* Farbe beim Hover */
 }
 
 /* Input */
