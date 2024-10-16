@@ -31,19 +31,31 @@ h1 {
   font-weight: bold;
 }
 
+ #sicherheit {
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+}
+
+#reiseart, #klima {
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+}
+
 button {
-  background-color: #4CAF50; /* Grundfarbe */
-  color: white; /* Schriftfarbe */
-  cursor: pointer; /* Zeigt den Handzeiger an */
-  padding: 10px; /* Polsterung für ein besseres Gefühl */
-  border-radius: 5px; /* Abgerundete Ecken */
-  border: none; /* Entfernt den Standardrand */
-  transition: background-color 0.3s ease; /* Sanfter Übergang */
-  font-size: 1em; /* Schriftgröße */
+  background-color: #4CAF50; 
+  color: white; 
+  cursor: pointer; 
+  padding: 10px; 
+  border-radius: 5px; 
+  border: none; 
+  transition: background-color 0.3s ease; 
+  font-size: 1em; 
 }
 
 button:hover {
-  background-color: #45a049; /* Farbe beim Hover */
+  background-color: #45a049; 
 }
 
 /* Input */
@@ -56,9 +68,8 @@ input[type="number"], select {
 }
 
 input[type="checkbox"], input[type="radio"] {
-  accent-color: #4CAF50; /* Grüne Checkboxen/Radiobuttons */
-  transform: scale(1.2); /* Größer anzeigen */
-  margin-right: 10px;
+  accent-color: #4CAF50; 
+  transform: scale(1.2); 
 }
 
 /* Hover-effects */
