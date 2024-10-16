@@ -23,8 +23,16 @@ h1 {
 
 /* Questions */
 
-.question, .buttonSubmit {
+.question {
   margin-top: 20px;
+  margin-bottom: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.buttonSubmit {
+  margin-top: 40px;
   margin-bottom: 15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: larger;
@@ -67,8 +75,13 @@ input[type="number"], select {
   font-size: 1em;
 }
 
-input[type="checkbox"], input[type="radio"] {
+input[type="checkbox"] {
   accent-color: #4CAF50; 
+  transform: scale(1.2); 
+}
+
+input[type="radio"] {
+  accent-color: #000000;
   transform: scale(1.2); 
 }
 
@@ -81,3 +94,5 @@ button:hover {
 label:hover, input:hover, select:hover {
   text-decoration: underline;
 }
+
+
