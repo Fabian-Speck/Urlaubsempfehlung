@@ -1,10 +1,13 @@
 /* Basic elements */
 
 body {
-  background-color: lightblue;
   text-align: center;
   font-size: medium;
   font-family: 'Arial', sans-serif;
+  background-image: url(holiday.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 form {
@@ -17,8 +20,9 @@ form {
 }
 
 h1 {
-  color: #333;
-  font-size: 2em;
+  color: white;
+  font-size: 3em;
+  text-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
 }
 
 /* Questions */
