@@ -1,4 +1,102 @@
+/* Basic elements */
+
 body {
-    background-color: lightblue;
+  text-align: center;
+  font-size: medium;
+  font-family: 'Arial', sans-serif;
+  background-image: url(holiday.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+  text-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Questions */
+
+.question {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.buttonSubmit {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+}
+
+ #sicherheit {
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+}
+
+#reiseart, #klima {
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+}
+
+button {
+  background-color: #4CAF50; 
+  color: white; 
+  cursor: pointer; 
+  padding: 10px; 
+  border-radius: 5px; 
+  border: none; 
+  transition: background-color 0.3s ease; 
+  font-size: 1em; 
+}
+
+button:hover {
+  background-color: #45a049; 
+}
+
+/* Input */
+
+input[type="number"], select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+
+input[type="checkbox"] {
+  accent-color: #4CAF50; 
+  transform: scale(1.2); 
+}
+
+input[type="radio"] {
+  accent-color: #000000;
+  transform: scale(1.2); 
+}
+
+/* Hover-effects */
+
+button:hover {
+  background-color: #45a049;
+}
+
+label:hover, input:hover, select:hover {
+  text-decoration: underline;
+}
+
 

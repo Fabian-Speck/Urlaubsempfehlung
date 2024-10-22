@@ -1,0 +1,84 @@
+{
+  "urlaubsziele": [
+    {
+      "name": "Mallorca",
+      "beschreibung": "Schöne Strände und lebhafte Städte.",
+      "budget": 600,
+      "klima": "warm",
+      "reisearten": ["strand", "stadt"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Island",
+      "beschreibung": "Atemberaubende Landschaften und heiße Quellen.",
+      "budget": 1500,
+      "klima": "kalt",
+      "reisearten": ["natur", "abenteuer"],
+      "sicherheit": "sehr_wichtig"
+    },
+    {
+      "name": "Paris",
+      "beschreibung": "Kultur, Kunst und Romantik in der Stadt der Lichter.",
+      "budget": 800,
+      "klima": "gemäßigt",
+      "reisearten": ["stadt", "kultur"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Maldiven",
+      "beschreibung": "Luxuriöse Resorts und unberührte Strände.",
+      "budget": 3000,
+      "klima": "tropisch",
+      "reisearten": ["strand", "wellness"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Norwegen",
+      "beschreibung": "Wilde Natur, Fjorde und Polarlichter.",
+      "budget": 1200,
+      "klima": "kalt",
+      "reisearten": ["natur", "abenteuer"],
+      "sicherheit": "sehr_wichtig"
+    },
+    {
+      "name": "Thailand",
+      "beschreibung": "Exotische Strände, Kultur und köstliches Essen.",
+      "budget": 900,
+      "klima": "heiß",
+      "reisearten": ["strand", "kultur"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Schwarzwald",
+      "beschreibung": "Wanderwege, dichte Wälder und malerische Dörfer.",
+      "budget": 500,
+      "klima": "kühl",
+      "reisearten": ["natur", "wellness"],
+      "sicherheit": "sehr_wichtig"
+    },
+    {
+      "name": "Dubai",
+      "beschreibung": "Luxusshopping, moderne Architektur und Wüstensafaris.",
+      "budget": 2000,
+      "klima": "heiß",
+      "reisearten": ["stadt", "abenteuer"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Venedig",
+      "beschreibung": "Romantische Kanäle und italienische Kultur.",
+      "budget": 1000,
+      "klima": "gemäßigt",
+      "reisearten": ["stadt", "kultur"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Australien",
+      "beschreibung": "Endlose Strände, Outback-Abenteuer und lebendige Städte.",
+      "budget": 2500,
+      "klima": "warm",
+      "reisearten": ["abenteuer", "natur", "strand"],
+      "sicherheit": "egal"
+    }
+  ]
+}

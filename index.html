@@ -6,35 +6,43 @@
   </head>
   <body>
     <h1>Lasse dir einen passenden Urlaubsort generieren</h1>
-    <p>Alles was du dafür tun musst, ist folgende Fragen zu beantworten:</p>
     <!--User-Abfragen-->
     <form id="urlaubsForm">
       <!-- Budget pro Person -->
-        <div>
-          <label for="budget">Budget pro Person in €:</label><br>
-          <input type="number" id="budget" name="budget" min="0" required />
+      <div>
+        <div class="question">
+          <label for="budget">Budget pro Person in €:</label>
         </div>
-
+        <input type="number" id="budget" name="budget" min="0" required />
+      </div>
       <!-- Reisedauer -->
       <div>
-        <label for="dauer">Reisedauer in Tagen:</label><br>
+        <div class="question">
+          <label for="dauer">Reisedauer in Tagen:</label>
+        </div>
         <input type="number" id="dauer" name="dauer" min="1" required />
       </div>
-
-      <!-- Personenanzahl (inkl. Kinder) -->
+      <!-- Personenanzahl -->
       <div>
-        <label for="personen">Personenanzahl:</label><br>
+        <div class="question">
+          <label for="personen">Personenanzahl:</label>
+        </div>
         <input type="number" id="personen" name="personen" min="1" required />
       </div>
 
+      <!-- Kinderanzahl  -->
       <div>
-        <label for="kinder">Davon Kinder:</label><br>
+        <div class="question">
+          <label for="kinder">Davon Kinder:</label>
+        </div>
         <input type="number" id="kinder" name="kinder" min="0" required />
       </div>
 
       <!-- Reiseart (Mehrfachauswahl möglich) -->
       <div>
-        <label>Reiseart:</label>
+        <div class="question">
+          <label>Bevorzugte Reiseart:</label>
+        </div>
         <div id="reiseart">
           <input
             type="checkbox"
@@ -71,7 +79,9 @@
 
       <!-- Sicherheit (Auswahlmöglichkeiten) -->
       <div>
-        <label>Sicherheit im Urlaubsland:</label>
+        <div class="question">
+          <label>Sicherheit im Urlaubsland:</label>
+        </div>
         <div id="sicherheit">
           <input
             type="radio"
@@ -104,7 +114,9 @@
 
       <!-- Klima (Mehrfachauswahl möglich) -->
       <div>
-        <label>Bevorzugtes Klima:</label>
+        <div class="question">
+          <label>Bevorzugtes Klima:</label>
+        </div>
         <div id="klima">
           <input type="checkbox" id="kalt" name="klima" value="kalt" />
           <label for="kalt">Kalt</label>
@@ -129,34 +141,17 @@
         </div>
       </div>
 
-      <!-- Nachtleben -->
-      <div>
-        <label>Nachtleben:</label>
-        <div id="nachtleben">
-          <input
-            type="radio"
-            id="wichtig"
-            name="nachtleben"
-            value="wichtig"
-            required
-          />
-          <label for="wichtig">Wichtig</label>
-
-          <input
-            type="radio"
-            id="unwichtig"
-            name="nachtleben"
-            value="unwichtig"
-            required
-          />
-          <label for="unwichtig">Unwichtig</label>
-        </div>
-      </div>
-
       <!-- Abschicken-Button -->
       <div>
-        <button type="submit">Vorschläge anzeigen</button>
+        <div class="buttonSubmit">
+          <button type="submit">Vorschläge anzeigen</button>
+        </div>
       </div>
     </form>
+
+    <div id="ergebnis"></div>
+
+    <!-- JavaScript einbinden -->
+    <script src="script.js"></script>
   </body>
 </html>
