@@ -1,232 +1,84 @@
 {
-    "urlaubziele": [
-      {
-        "name": "Machu Picchu, Peru",
-        "reiseart": ["abenteuer", "kultur", "natur"],
-        "klima": ["kühl", "gemäßigt"],
-        "sicherheit": "normal",
-        "budget_pro_person": 1500,
-        "dauer": [5, 7],
-        "kinderfreundlich": false
-      },
-      {
-        "name": "Malé, Malediven",
-        "reiseart": ["strand", "wellness"],
-        "klima": ["tropisch", "warm"],
-        "sicherheit": "sehr_wichtig",
-        "budget_pro_person": 3000,
-        "dauer": [7, 14],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Reykjavík, Island",
-        "reiseart": ["abenteuer", "natur"],
-        "klima": ["kalt", "kühl"],
-        "sicherheit": "sehr_wichtig",
-        "budget_pro_person": 1200,
-        "dauer": [5, 10],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Kyoto, Japan",
-        "reiseart": ["kultur", "stadt"],
-        "klima": ["gemäßigt", "warm"],
-        "sicherheit": "sehr_wichtig",
-        "budget_pro_person": 1800,
-        "dauer": [5, 10],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Sydney, Australien",
-        "reiseart": ["stadt", "abenteuer", "strand"],
-        "klima": ["warm", "gemäßigt"],
-        "sicherheit": "normal",
-        "budget_pro_person": 2500,
-        "dauer": [10, 14],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Kapstadt, Südafrika",
-        "reiseart": ["abenteuer", "natur", "stadt"],
-        "klima": ["warm", "gemäßigt"],
-        "sicherheit": "normal",
-        "budget_pro_person": 1400,
-        "dauer": [7, 14],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Venedig, Italien",
-        "reiseart": ["kultur", "stadt", "wellness"],
-        "klima": ["gemäßigt", "warm"],
-        "sicherheit": "sehr_wichtig",
-        "budget_pro_person": 1000,
-        "dauer": [3, 7],
-        "kinderfreundlich": false
-      },
-      {
-        "name": "Banff Nationalpark, Kanada",
-        "reiseart": ["abenteuer", "natur"],
-        "klima": ["kalt", "kühl"],
-        "sicherheit": "sehr_wichtig",
-        "budget_pro_person": 1800,
-        "dauer": [5, 12],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Phuket, Thailand",
-        "reiseart": ["strand", "abenteuer", "wellness"],
-        "klima": ["tropisch", "warm"],
-        "sicherheit": "normal",
-        "budget_pro_person": 1200,
-        "dauer": [7, 14],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Barcelona, Spanien",
-        "reiseart": ["stadt", "strand", "kultur"],
-        "klima": ["warm", "gemäßigt"],
-        "sicherheit": "sehr_wichtig",
-        "budget_pro_person": 800,
-        "dauer": [3, 7],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Queenstown, Neuseeland",
-        "reiseart": ["abenteuer", "natur"],
-        "klima": ["kühl", "gemäßigt"],
-        "sicherheit": "normal",
-        "budget_pro_person": 2500,
-        "dauer": [7, 14],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Santorini, Griechenland",
-        "reiseart": ["strand", "kultur", "wellness"],
-        "klima": ["warm", "gemäßigt"],
-        "sicherheit": "sehr_wichtig",
-        "budget_pro_person": 1500,
-        "dauer": [5, 10],
-        "kinderfreundlich": false
-      },
-      {
-        "name": "Hanoi, Vietnam",
-        "reiseart": ["kultur", "stadt", "natur"],
-        "klima": ["tropisch", "warm"],
-        "sicherheit": "normal",
-        "budget_pro_person": 1000,
-        "dauer": [7, 12],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Bora Bora, Französisch-Polynesien",
-        "reiseart": ["strand", "wellness"],
-        "klima": ["tropisch", "warm"],
-        "sicherheit": "sehr_wichtig",
-        "budget_pro_person": 3500,
-        "dauer": [7, 14],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Dubai, Vereinigte Arabische Emirate",
-        "reiseart": ["stadt", "strand", "wellness"],
-        "klima": ["heiß", "tropisch"],
-        "sicherheit": "sehr_wichtig",
-        "budget_pro_person": 2000,
-        "dauer": [5, 10],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Tromsø, Norwegen",
-        "reiseart": ["natur", "abenteuer"],
-        "klima": ["kalt", "kühl"],
-        "sicherheit": "sehr_wichtig",
-        "budget_pro_person": 1200,
-        "dauer": [4, 7],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Zermatt, Schweiz",
-        "reiseart": ["abenteuer", "natur", "wellness"],
-        "klima": ["kalt", "kühl"],
-        "sicherheit": "sehr_wichtig",
-        "budget_pro_person": 2500,
-        "dauer": [5, 10],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Petra, Jordanien",
-        "reiseart": ["kultur", "abenteuer"],
-        "klima": ["warm", "heiß"],
-        "sicherheit": "normal",
-        "budget_pro_person": 1500,
-        "dauer": [5, 7],
-        "kinderfreundlich": false
-      },
-      {
-        "name": "Chiang Mai, Thailand",
-        "reiseart": ["kultur", "natur", "abenteuer"],
-        "klima": ["tropisch", "warm"],
-        "sicherheit": "normal",
-        "budget_pro_person": 1000,
-        "dauer": [7, 14],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Cusco, Peru",
-        "reiseart": ["kultur", "abenteuer", "natur"],
-        "klima": ["kühl", "gemäßigt"],
-        "sicherheit": "normal",
-        "budget_pro_person": 1200,
-        "dauer": [5, 10],
-        "kinderfreundlich": false
-      },
-      {
-        "name": "Palawan, Philippinen",
-        "reiseart": ["strand", "natur", "abenteuer"],
-        "klima": ["tropisch", "warm"],
-        "sicherheit": "normal",
-        "budget_pro_person": 1500,
-        "dauer": [7, 12],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Yellowstone Nationalpark, USA",
-        "reiseart": ["abenteuer", "natur"],
-        "klima": ["gemäßigt", "warm"],
-        "sicherheit": "normal",
-        "budget_pro_person": 2000,
-        "dauer": [5, 10],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Marrakesch, Marokko",
-        "reiseart": ["kultur", "stadt", "abenteuer"],
-        "klima": ["warm", "heiß"],
-        "sicherheit": "normal",
-        "budget_pro_person": 1000,
-        "dauer": [5, 7],
-        "kinderfreundlich": false
-      },
-      {
-        "name": "Lappland, Finnland",
-        "reiseart": ["abenteuer", "natur", "wellness"],
-        "klima": ["kalt", "kühl"],
-        "sicherheit": "sehr_wichtig",
-        "budget_pro_person": 1800,
-        "dauer": [7, 10],
-        "kinderfreundlich": true
-      },
-      {
-        "name": "Seychellen",
-        "reiseart": ["strand", "wellness"],
-        "klima": ["tropisch", "warm"],
-        "sicherheit": "sehr_wichtig",
-        "budget_pro_person": 2000,
-        "dauer": [7, 14],
-        "kinderfreundlich": true
-
-      }
-    ]
-    
+  "urlaubsziele": [
+    {
+      "name": "Mallorca",
+      "beschreibung": "Schöne Strände und lebhafte Städte.",
+      "budget": 600,
+      "klima": "warm",
+      "reisearten": ["strand", "stadt"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Island",
+      "beschreibung": "Atemberaubende Landschaften und heiße Quellen.",
+      "budget": 1500,
+      "klima": "kalt",
+      "reisearten": ["natur", "abenteuer"],
+      "sicherheit": "sehr_wichtig"
+    },
+    {
+      "name": "Paris",
+      "beschreibung": "Kultur, Kunst und Romantik in der Stadt der Lichter.",
+      "budget": 800,
+      "klima": "gemäßigt",
+      "reisearten": ["stadt", "kultur"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Maldiven",
+      "beschreibung": "Luxuriöse Resorts und unberührte Strände.",
+      "budget": 3000,
+      "klima": "tropisch",
+      "reisearten": ["strand", "wellness"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Norwegen",
+      "beschreibung": "Wilde Natur, Fjorde und Polarlichter.",
+      "budget": 1200,
+      "klima": "kalt",
+      "reisearten": ["natur", "abenteuer"],
+      "sicherheit": "sehr_wichtig"
+    },
+    {
+      "name": "Thailand",
+      "beschreibung": "Exotische Strände, Kultur und köstliches Essen.",
+      "budget": 900,
+      "klima": "heiß",
+      "reisearten": ["strand", "kultur"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Schwarzwald",
+      "beschreibung": "Wanderwege, dichte Wälder und malerische Dörfer.",
+      "budget": 500,
+      "klima": "kühl",
+      "reisearten": ["natur", "wellness"],
+      "sicherheit": "sehr_wichtig"
+    },
+    {
+      "name": "Dubai",
+      "beschreibung": "Luxusshopping, moderne Architektur und Wüstensafaris.",
+      "budget": 2000,
+      "klima": "heiß",
+      "reisearten": ["stadt", "abenteuer"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Venedig",
+      "beschreibung": "Romantische Kanäle und italienische Kultur.",
+      "budget": 1000,
+      "klima": "gemäßigt",
+      "reisearten": ["stadt", "kultur"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Australien",
+      "beschreibung": "Endlose Strände, Outback-Abenteuer und lebendige Städte.",
+      "budget": 2500,
+      "klima": "warm",
+      "reisearten": ["abenteuer", "natur", "strand"],
+      "sicherheit": "egal"
+    }
+  ]
 }
-  
