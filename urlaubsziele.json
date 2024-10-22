@@ -4,6 +4,7 @@
       "name": "Mallorca",
       "beschreibung": "Schöne Strände und lebhafte Städte.",
       "budget": 600,
+      "dauer": 7,
       "klima": "warm",
       "reisearten": ["strand", "stadt"],
       "sicherheit": "normal"
@@ -12,6 +13,7 @@
       "name": "Island",
       "beschreibung": "Atemberaubende Landschaften und heiße Quellen.",
       "budget": 1500,
+      "dauer": 10,
       "klima": "kalt",
       "reisearten": ["natur", "abenteuer"],
       "sicherheit": "sehr_wichtig"
@@ -20,6 +22,7 @@
       "name": "Paris",
       "beschreibung": "Kultur, Kunst und Romantik in der Stadt der Lichter.",
       "budget": 800,
+      "dauer": 5,
       "klima": "gemäßigt",
       "reisearten": ["stadt", "kultur"],
       "sicherheit": "normal"
@@ -28,6 +31,7 @@
       "name": "Maldiven",
       "beschreibung": "Luxuriöse Resorts und unberührte Strände.",
       "budget": 3000,
+      "dauer": 7,
       "klima": "tropisch",
       "reisearten": ["strand", "wellness"],
       "sicherheit": "normal"
@@ -36,6 +40,7 @@
       "name": "Norwegen",
       "beschreibung": "Wilde Natur, Fjorde und Polarlichter.",
       "budget": 1200,
+      "dauer": 8,
       "klima": "kalt",
       "reisearten": ["natur", "abenteuer"],
       "sicherheit": "sehr_wichtig"
@@ -44,6 +49,7 @@
       "name": "Thailand",
       "beschreibung": "Exotische Strände, Kultur und köstliches Essen.",
       "budget": 900,
+      "dauer": 14,
       "klima": "heiß",
       "reisearten": ["strand", "kultur"],
       "sicherheit": "normal"
@@ -52,6 +58,7 @@
       "name": "Schwarzwald",
       "beschreibung": "Wanderwege, dichte Wälder und malerische Dörfer.",
       "budget": 500,
+      "dauer": 5,
       "klima": "kühl",
       "reisearten": ["natur", "wellness"],
       "sicherheit": "sehr_wichtig"
@@ -60,6 +67,7 @@
       "name": "Dubai",
       "beschreibung": "Luxusshopping, moderne Architektur und Wüstensafaris.",
       "budget": 2000,
+      "dauer": 6,
       "klima": "heiß",
       "reisearten": ["stadt", "abenteuer"],
       "sicherheit": "normal"
@@ -68,6 +76,7 @@
       "name": "Venedig",
       "beschreibung": "Romantische Kanäle und italienische Kultur.",
       "budget": 1000,
+      "dauer": 4,
       "klima": "gemäßigt",
       "reisearten": ["stadt", "kultur"],
       "sicherheit": "normal"
@@ -76,9 +85,91 @@
       "name": "Australien",
       "beschreibung": "Endlose Strände, Outback-Abenteuer und lebendige Städte.",
       "budget": 2500,
+      "dauer": 12,
       "klima": "warm",
       "reisearten": ["abenteuer", "natur", "strand"],
       "sicherheit": "egal"
+    },
+    {
+      "name": "Kanarische Inseln",
+      "beschreibung": "Traumhafte Strände und vulkanische Landschaften.",
+      "budget": 700,
+      "dauer": 10,
+      "klima": "warm",
+      "reisearten": ["strand", "natur"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Tokyo",
+      "beschreibung": "Eine Stadt voller Kontraste zwischen Tradition und Moderne.",
+      "budget": 1500,
+      "dauer": 7,
+      "klima": "gemäßigt",
+      "reisearten": ["stadt", "kultur"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "New York",
+      "beschreibung": "Die Stadt, die niemals schläft.",
+      "budget": 2000,
+      "dauer": 6,
+      "klima": "gemäßigt",
+      "reisearten": ["stadt", "kultur"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Kapstadt",
+      "beschreibung": "Wunderschöne Landschaften und kulturelle Vielfalt.",
+      "budget": 1600,
+      "dauer": 8,
+      "klima": "warm",
+      "reisearten": ["natur", "stadt"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Rom",
+      "beschreibung": "Die Ewige Stadt mit ihrer reichen Geschichte.",
+      "budget": 900,
+      "dauer": 5,
+      "klima": "gemäßigt",
+      "reisearten": ["stadt", "kultur"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Kairo",
+      "beschreibung": "Die Pyramiden und das alte Ägypten erkunden.",
+      "budget": 1200,
+      "dauer": 7,
+      "klima": "heiß",
+      "reisearten": ["kultur", "abenteuer"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Costa Rica",
+      "beschreibung": "Ein Paradies für Naturliebhaber und Abenteuerlustige.",
+      "budget": 1400,
+      "dauer": 10,
+      "klima": "tropisch",
+      "reisearten": ["natur", "abenteuer"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Südafrika",
+      "beschreibung": "Vielfältige Natur und beeindruckende Tierwelt.",
+      "budget": 1800,
+      "dauer": 12,
+      "klima": "warm",
+      "reisearten": ["natur", "abenteuer"],
+      "sicherheit": "normal"
+    },
+    {
+      "name": "Sizilien",
+      "beschreibung": "Eine Mischung aus Kultur, Geschichte und kulinarischen Genüssen.",
+      "budget": 1100,
+      "dauer": 7,
+      "klima": "warm",
+      "reisearten": ["stadt", "kultur"],
+      "sicherheit": "normal"
     }
   ]
 }
