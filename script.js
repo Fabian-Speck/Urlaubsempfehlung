@@ -62,20 +62,22 @@ document.getElementById("urlaubsForm").addEventListener("submit", function (e) {
       // Ziele sortieren: Die mit den meisten Punkten zuerst
       bewerteteZiele.sort((a, b) => b.punkte - a.punkte);
 
-      // Ausgabe des besten Ziels
+    
+      // Output the best match in console and popup
       if (bewerteteZiele.length > 0) {
-        const bestesZiel = bewerteteZiele[0].ziel; // Das Ziel mit den meisten Punkten anzeigen
-        document.getElementById("ergebnis").innerHTML = `
-          <h2>Wir empfehlen: ${bestesZiel.name}</h2>
-          <p>Beschreibung: ${bestesZiel.beschreibung}</p>`;
+        const bestesZiel = bewerteteZiele[0].ziel;
+        const resultMessage = `Wir empfehlen ${bestesZiel.name}:\n${bestesZiel.beschreibung}`;
+        
+        console.log(resultMessage); // Console output
+        alert(resultMessage); // Popup output
       } else {
-        document.getElementById("ergebnis").innerHTML =
-          "<h2>Keine passenden Urlaubsziele gefunden</h2>";
+        const noMatchMessage = "Wir empfehlen Balkonien: \nErkunde deine Umgebung";
+        console.log(noMatchMessage);
+        alert(noMatchMessage);
       }
     })
     .catch((error) => {
-      console.error("Fehler beim Laden der Urlaubsziele:", error);
-      document.getElementById("ergebnis").innerHTML =
-        "<h2>Fehler beim Laden der Urlaubsziele</h2>";
+      console.error("Error loading vacation destinations:", error);
+      alert("Error loading vacation destinations");
     });
 });
