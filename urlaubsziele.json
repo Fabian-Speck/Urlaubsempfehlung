@@ -10,6 +10,15 @@
       "sicherheit": "normal"
     },
     {
+      "name": "Weltreise",
+      "beschreibung": "Einmal um die ganze Welt.",
+      "budget": 1000000000000,
+      "dauer": 50,
+      "klima": ["warm", "gemäßigt", "heiß", "kalt", "tropisch", "kühl"],
+      "reisearten": ["strand", "stadt", "natur", "abenteuer", "kultur","wellness"],
+      "sicherheit": "egal"
+    },
+    {
       "name": "Island",
       "beschreibung": "Atemberaubende Landschaften und heiße Quellen.",
       "budget": 1500,
@@ -21,7 +30,7 @@
     {
       "name": "Paris",
       "beschreibung": "Kultur, Kunst und Romantik in der Stadt der Lichter.",
-      "budget": 800,
+      "budget": 500,
       "dauer": 5,
       "klima": "gemäßigt",
       "reisearten": ["stadt", "kultur"],
@@ -75,7 +84,7 @@
     {
       "name": "Venedig",
       "beschreibung": "Romantische Kanäle und italienische Kultur.",
-      "budget": 1000,
+      "budget": 500,
       "dauer": 4,
       "klima": "gemäßigt",
       "reisearten": ["stadt", "kultur"],
@@ -129,7 +138,7 @@
     {
       "name": "Rom",
       "beschreibung": "Die Ewige Stadt mit ihrer reichen Geschichte.",
-      "budget": 900,
+      "budget": 700,
       "dauer": 5,
       "klima": "gemäßigt",
       "reisearten": ["stadt", "kultur"],
